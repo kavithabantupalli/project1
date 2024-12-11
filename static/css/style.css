@@ -35,3 +35,33 @@
     padding: 1% 0% 1% 0%;
     text-align: center;
 }
+.login-div{
+    float: left;
+    width: 60%;
+    margin: 10% 0% 0% 20%;
+    background-color: rgb(81, 172, 142);
+}
+
+.login-div input{
+    float: left;
+    width: 80%;
+    margin: 2% 0% 2% 10%;
+    font-size: 30px;
+    background-color: rgb(132, 118, 224);
+}
+
+.login-div button{
+    float: left;
+    width: 40%;
+    margin: 0% 0% 2% 30%;
+    font-size: 30px;
+    background-color: rgb(217, 115, 209);
+}
+
+.login-div input:focus{
+    background-color: rgb(181, 205, 87);
+}
+
+.login-div button:hover{
+    box-shadow: 10px 10px 10px black;
+}
